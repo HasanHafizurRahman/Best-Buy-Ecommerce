@@ -14,10 +14,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        amazon_blue: {
-          light: "#232F3E",
-          DEFAULT: "#131921",
-        },
+        primary: "#FDD670",
+        secondary: "#1F2937",
       },
     },
   },

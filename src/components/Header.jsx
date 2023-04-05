@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header>
       {/* top nav  */}
-      <div className="flex items-center bg-[#FDD670] flex-grow pl-2">
+      <div className="flex items-center bg-primary flex-grow pl-2">
         <div className="flex items-center flex-grow sm:flex-grow-0 mt-2 mx-3">
           {/* <Image
             src="https://links.papareact.com/f90"
@@ -22,14 +22,14 @@ const Header = () => {
             <div className="flex">
               <div>
                 <h1 className="text-lg md:text-xl lg:text-2xl bg-gray-600 text-white rounded-lg font-bold pb-2 mb-2 px-2">
-                  Best <span className="text-[#FDD670]"> Buy</span>
+                  Best <span className="text-primary"> Buy</span>
                 </h1>
               </div>
               <div className="px-3">
-                <p className="text-gray-800 px-4 text-sm">Deliver to</p>
+                <p className="text-secondary px-4 text-sm">Deliver to</p>
                 <div className="flex">
                   <HiOutlineLocationMarker color="#1F2937" />
-                  <p className="text-gray-800 font-bold">Bangladesh</p>
+                  <p className="text-secondary font-bold">Bangladesh</p>
                 </div>
               </div>
             </div>
@@ -49,20 +49,20 @@ const Header = () => {
 
         {/* bottom nav */}
         <div className="flex gap-5 mx-6 items-center whitespace-nowrap">
-          <div className="text-gray-800 link">
+          <div className="text-secondary link">
             <p className="text-sm">Hello Hasan Shanto</p>
             <p className="font-bold md:text-sm">account & lists</p>
           </div>
-          <div className="text-gray-800 link">
+          <div className="text-secondary link">
             <p className="text-sm">Orders</p>
             <p className="font-bold md:text-sm">& Returns</p>
           </div>
           <div className="relative link flex items-center">
-            <span className="absolute top-0 right-0 md:right-6 text-gray-800 text-center font-bold bg-green-500 rounded-full px-1">
+            <span className="absolute top-0 right-0 md:right-6 text-secondary text-center font-bold bg-green-500 rounded-full px-1">
               0
             </span>
             <BsCart4 color="#1F2937" size={40} />
-            <p className="font-bold text-gray-800 md:text-sm hidden md:inline">
+            <p className="font-semibold text-secondary md:text-md mt-2 hidden md:inline">
               cart
             </p>
           </div>
