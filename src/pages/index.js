@@ -10,6 +10,7 @@ export default function Home() {
         <title>Best Buy</title>
       </Head>
       <Header />
+      <main className="max-w-screen-2xl"></main>
     </div>
   );
 }
