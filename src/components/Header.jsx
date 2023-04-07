@@ -10,22 +10,14 @@ const Header = () => {
       {/* top nav  */}
       <div className="flex items-center bg-primary flex-grow pl-2">
         <div className="flex items-center flex-grow sm:flex-grow-0 mt-2 mx-3">
-          {/* <Image
-            src="https://links.papareact.com/f90"
-            alt="logo"
-            width={150}
-            height={40}
-            objectFit="contain"
-            className="cursor-pointer mt-2"
-          /> */}
           <div>
             <div className="flex">
               <div>
-                <h1 className="text-lg md:text-xl lg:text-2xl bg-gray-600 text-white rounded-lg font-bold pb-2 mb-2 px-2">
+                <h1 className="text-md md:text-xl lg:text-2xl bg-gray-600 text-white rounded-lg font-bold pb-2 mb-2 px-2">
                   Best <span className="text-primary"> Buy</span>
                 </h1>
               </div>
-              <div className="px-3">
+              <div className="px-3 hidden md:block">
                 <p className="text-secondary px-4 text-sm">Deliver to</p>
                 <div className="flex">
                   <HiOutlineLocationMarker color="#1F2937" />
