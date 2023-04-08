@@ -20,8 +20,9 @@ const Product = ({ product }) => {
         alt="product"
         height={200}
         width={200}
-        objectFit="contain"
-        className="m-auto center"
+        // objectFit="contain"
+
+        className="m-auto center object-contain"
       />
       <h4 className="my-3">{title}</h4>
       <div className="flex">
