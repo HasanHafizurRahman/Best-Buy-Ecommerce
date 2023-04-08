@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import CurrencyFormat from "react-currency-format";
+// import CurrencyFormat from "react-currency-format";
 import { AiFillStar } from "react-icons/ai";
 
 const Max = 5;
@@ -36,7 +36,8 @@ const Product = ({ product }) => {
       <p className="text-xs my-2 line-clamp-2">{description}</p>
 
       <div className="mb-5">
-        <CurrencyFormat value={price} prefix="BDT " suffix="/-" />
+        {/* <CurrencyFormat value={price} prefix="BDT " suffix="/-" /> */}
+        <p>BDT {price}/-</p>
       </div>
       {hasPrime && (
         <div className="flex items-center space-x-2 -mt-5">
