@@ -27,11 +27,6 @@ const Productfeed = ({ products }) => {
       {products.slice(0, 1).map((product) => (
         <Product key={product.id} product={product} />
       ))}
-      <div className="md:col-span-2">
-        {products.slice(1, 2).map((product) => (
-          <Product key={product.id} product={product} />
-        ))}
-      </div>
     </div>
   );
 };
