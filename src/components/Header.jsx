@@ -3,7 +3,10 @@ import React from "react";
 import { BsCart4 } from "react-icons/bs";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { AiOutlineMenu, AiOutlineSearch } from "react-icons/ai";
+import { signIn, signout, useSession } from "next-auth/react";
 
+// client id = 613735720339 - f7jpjrthhm9uvb8rkdnnkfa0cmg6sus3.apps.googleusercontent.com
+// client secret = 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
 const Header = () => {
   return (
     <header>
@@ -41,7 +44,7 @@ const Header = () => {
 
         {/* bottom nav */}
         <div className="flex gap-5 mx-6 items-center whitespace-nowrap">
-          <div className="text-secondary link">
+          <div onClick={signIn} className="text-secondary link">
             <p className="text-sm">Hello Hasan Shanto</p>
             <p className="font-bold md:text-sm">account & lists</p>
           </div>
